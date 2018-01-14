@@ -1,27 +1,23 @@
-section,
-mat-card {
-  height: 900px;
+.page-header {
+  text-align: center;
 }
 
-mat-grid-tile figure {
-  align-items: flex-start;
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.description,
-mat-card-content {
-  overflow-y: scroll;
-  height: 310px;
-}
-
-.team-image {
-  height: 580px;
-}
-
-mat-card .team-image {
+.team-card img {
   height: 500px;
   width: 500px;
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius: 50%;
 }
 
-mat-card-header h3 {
-  padding-top: 20px;
+.team-card article {
+  padding: 40px;
 }
+
+
